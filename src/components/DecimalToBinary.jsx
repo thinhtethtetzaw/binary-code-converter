@@ -12,9 +12,11 @@ const DecimalToBinary = () => {
   };
 
   return (
-    <div className="w-1/2 bg-white flex flex-col items-center justify-center">
-      <div className="w-[60%]">
-        <h2 className="text-5xl font-bold mb-10">Decimal to Binary</h2>
+    <div className="w-full lg:w-1/2 bg-white flex flex-col items-center justify-center">
+      <div className="xl:w-[70%] p-10">
+        <h2 className="text-3xl lg:text-5xl font-bold mb-10">
+          Decimal to Binary
+        </h2>
         <input
           type="number"
           className="w-full py-3 px-5 border text-xl border-gray-400 bg-transparent rounded-lg focus:outline-none"
@@ -22,9 +24,9 @@ const DecimalToBinary = () => {
           onChange={handleDecimalChange}
           placeholder="Enter a character"
         />
-        <div className="grid grid-cols-12 text-2xl mt-10 text-left">
-          <p className="col-span-4">Binary Code:</p>
-          <p className="col-span-8">{binary}</p>
+        <div className="grid grid-cols-12 text-lg lg:text-2xl mt-10 text-left">
+          <p className="col-span-5">Binary Code:</p>
+          <p className="col-span-7">{binary}</p>
         </div>
       </div>
     </div>

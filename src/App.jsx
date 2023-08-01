@@ -3,7 +3,7 @@ import DecimalToBinary from "./components/DecimalToBinary";
 
 function App() {
   return (
-    <div className="flex h-screen">
+    <div className="lg:flex h-screen">
       <Alphabet />
       <DecimalToBinary />
     </div>
