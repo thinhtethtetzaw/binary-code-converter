@@ -24,7 +24,7 @@ const Alphabet = () => {
   return (
     <div className="w-full lg:w-1/2 bg-black flex flex-col items-center justify-center">
       <div className="xl:w-[70%] p-10">
-        <h2 className="text-white text-3xl lg:text-5xl font-bold mb-10">
+        <h2 className="text-white text-3xl lg:text-4xl font-bold mb-10">
           Alphabet to Binary
         </h2>
         <input
